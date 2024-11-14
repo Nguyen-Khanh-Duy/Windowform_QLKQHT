@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6B60E756-AD30-4DAC-BFB4-7847B9E112CC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>KQHT</RootNamespace>
+    <AssemblyName>KQHT</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\ControllerDangKiHoatDongNgoaiKhoa.cs" />
+    <Compile Include="Controllers\ControllerDiemRenLuyen.cs" />
+    <Compile Include="Controllers\ControllerDiemTrungBinh.cs" />
+    <Compile Include="Controllers\ControllerGiangVien.cs" />
+    <Compile Include="Controllers\ControllerHoatDongNgoaiKhoa.cs" />
+    <Compile Include="Controllers\ControllerKetQuaHocTap.cs" />
+    <Compile Include="Controllers\ControllerMonHoc.cs" />
+    <Compile Include="Controllers\ControllerSinhVien.cs" />
+    <Compile Include="Controllers\ControllerUserAccount.cs" />
+    <Compile Include="Controllers\IController.cs" />
+    <Compile Include="KQHTDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KQHTDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KQHTDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KQHTDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KQHTDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KQHTDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KQHTDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KQHTDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KQHTDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KQHTDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KQHTDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KQHTDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KQHTDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KQHTDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KQHTDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KQHTDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KQHTDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KQHTDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ModelDangKiHoatDongNgoaiKhoa.cs" />
+    <Compile Include="Models\ModelDiemRenLuyen.cs" />
+    <Compile Include="Models\ModelDiemTrungBinh.cs" />
+    <Compile Include="Models\ModelGiangVien.cs" />
+    <Compile Include="Models\ModelHoatDongNgoaiKhoa.cs" />
+    <Compile Include="Models\ModelKetQuaHocTap.cs" />
+    <Compile Include="Models\ModelMonHoc.cs" />
+    <Compile Include="Models\ModelSinhVien.cs" />
+    <Compile Include="Models\ModelUserAccount.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\DatabaseHelper.cs" />
+    <Compile Include="Models\IModel.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\frmDangKiHoatDongNgoaiKhoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmDangKiHoatDongNgoaiKhoa.Designer.cs">
+      <DependentUpon>frmDangKiHoatDongNgoaiKhoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmDangKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmDangKy.Designer.cs">
+      <DependentUpon>frmDangKy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmDangNhap.Designer.cs">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmDiemRenLuyen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmDiemRenLuyen.Designer.cs">
+      <DependentUpon>frmDiemRenLuyen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmDiemTrungBinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmDiemTrungBinh.Designer.cs">
+      <DependentUpon>frmDiemTrungBinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmGiangVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmGiangVien.Designer.cs">
+      <DependentUpon>frmGiangVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmHoatDongNgoaiKhoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmHoatDongNgoaiKhoa.Designer.cs">
+      <DependentUpon>frmHoatDongNgoaiKhoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmKetQuaHocTap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmKetQuaHocTap.Designer.cs">
+      <DependentUpon>frmKetQuaHocTap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmMonHoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmMonHoc.Designer.cs">
+      <DependentUpon>frmMonHoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmSinhVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmSinhVien.Designer.cs">
+      <DependentUpon>frmSinhVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmUserAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmUserAccount.Designer.cs">
+      <DependentUpon>frmUserAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\IView.cs" />
+    <Compile Include="Views\TrangChu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\TrangChu.Designer.cs">
+      <DependentUpon>TrangChu.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmDangKiHoatDongNgoaiKhoa.resx">
+      <DependentUpon>frmDangKiHoatDongNgoaiKhoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmDangKy.resx">
+      <DependentUpon>frmDangKy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmDangNhap.resx">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmDiemRenLuyen.resx">
+      <DependentUpon>frmDiemRenLuyen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmDiemTrungBinh.resx">
+      <DependentUpon>frmDiemTrungBinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmGiangVien.resx">
+      <DependentUpon>frmGiangVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmHoatDongNgoaiKhoa.resx">
+      <DependentUpon>frmHoatDongNgoaiKhoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmKetQuaHocTap.resx">
+      <DependentUpon>frmKetQuaHocTap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmMonHoc.resx">
+      <DependentUpon>frmMonHoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmSinhVien.resx">
+      <DependentUpon>frmSinhVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmUserAccount.resx">
+      <DependentUpon>frmUserAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\TrangChu.resx">
+      <DependentUpon>TrangChu.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="KQHTDataSet.xsc">
+      <DependentUpon>KQHTDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="KQHTDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KQHTDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KQHTDataSet.xss">
+      <DependentUpon>KQHTDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="KQHTDataSet1.xsc">
+      <DependentUpon>KQHTDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="KQHTDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KQHTDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KQHTDataSet1.xss">
+      <DependentUpon>KQHTDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="KQHTDataSet2.xsc">
+      <DependentUpon>KQHTDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="KQHTDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KQHTDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KQHTDataSet2.xss">
+      <DependentUpon>KQHTDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="KQHTDataSet3.xsc">
+      <DependentUpon>KQHTDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="KQHTDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KQHTDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KQHTDataSet3.xss">
+      <DependentUpon>KQHTDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="KQHTDataSet4.xsc">
+      <DependentUpon>KQHTDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="KQHTDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KQHTDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KQHTDataSet4.xss">
+      <DependentUpon>KQHTDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="KQHTDataSet5.xsc">
+      <DependentUpon>KQHTDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="KQHTDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KQHTDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KQHTDataSet5.xss">
+      <DependentUpon>KQHTDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="KQHTDataSet6.xsc">
+      <DependentUpon>KQHTDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="KQHTDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KQHTDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KQHTDataSet6.xss">
+      <DependentUpon>KQHTDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="KQHTDataSet7.xsc">
+      <DependentUpon>KQHTDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="KQHTDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KQHTDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KQHTDataSet7.xss">
+      <DependentUpon>KQHTDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="KQHTDataSet8.xsc">
+      <DependentUpon>KQHTDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="KQHTDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KQHTDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KQHTDataSet8.xss">
+      <DependentUpon>KQHTDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\top-phan-mem-quan-ly-hoc-sinh.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

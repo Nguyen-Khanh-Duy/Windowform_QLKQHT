@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KHANH DUY\\Desktop\\KQHT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B60E756-AD30-4DAC-BFB4-7847B9E112CC}|KQHT\\KQHT.csproj|c:\\users\\khanh duy\\desktop\\kqht\\kqht\\views\\frmketquahoctap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6B60E756-AD30-4DAC-BFB4-7847B9E112CC}|KQHT\\KQHT.csproj|solutionrelative:kqht\\views\\frmketquahoctap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B60E756-AD30-4DAC-BFB4-7847B9E112CC}|KQHT\\KQHT.csproj|c:\\users\\khanh duy\\desktop\\kqht\\kqht\\views\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6B60E756-AD30-4DAC-BFB4-7847B9E112CC}|KQHT\\KQHT.csproj|solutionrelative:kqht\\views\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B60E756-AD30-4DAC-BFB4-7847B9E112CC}|KQHT\\KQHT.csproj|C:\\Users\\KHANH DUY\\Desktop\\KQHT\\kqht\\views\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B60E756-AD30-4DAC-BFB4-7847B9E112CC}|KQHT\\KQHT.csproj|solutionrelative:kqht\\views\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B60E756-AD30-4DAC-BFB4-7847B9E112CC}|KQHT\\KQHT.csproj|C:\\Users\\KHANH DUY\\Desktop\\KQHT\\kqht\\views\\frmdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6B60E756-AD30-4DAC-BFB4-7847B9E112CC}|KQHT\\KQHT.csproj|solutionrelative:kqht\\views\\frmdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B60E756-AD30-4DAC-BFB4-7847B9E112CC}|KQHT\\KQHT.csproj|C:\\Users\\KHANH DUY\\Desktop\\KQHT\\kqht\\views\\frmmonhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6B60E756-AD30-4DAC-BFB4-7847B9E112CC}|KQHT\\KQHT.csproj|solutionrelative:kqht\\views\\frmmonhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B60E756-AD30-4DAC-BFB4-7847B9E112CC}|KQHT\\KQHT.csproj|C:\\Users\\KHANH DUY\\Desktop\\KQHT\\kqht\\views\\frmsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6B60E756-AD30-4DAC-BFB4-7847B9E112CC}|KQHT\\KQHT.csproj|solutionrelative:kqht\\views\\frmsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B60E756-AD30-4DAC-BFB4-7847B9E112CC}|KQHT\\KQHT.csproj|C:\\Users\\KHANH DUY\\Desktop\\KQHT\\kqht\\views\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6B60E756-AD30-4DAC-BFB4-7847B9E112CC}|KQHT\\KQHT.csproj|solutionrelative:kqht\\views\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 206,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmKetQuaHocTap.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\KHANH DUY\\Desktop\\KQHT\\KQHT\\Views\\frmKetQuaHocTap.cs",
+              "RelativeDocumentMoniker": "KQHT\\Views\\frmKetQuaHocTap.cs",
+              "ToolTip": "C:\\Users\\KHANH DUY\\Desktop\\KQHT\\KQHT\\Views\\frmKetQuaHocTap.cs [Design]",
+              "RelativeToolTip": "KQHT\\Views\\frmKetQuaHocTap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T04:29:21.733Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmDangNhap.cs",
+              "DocumentMoniker": "C:\\Users\\KHANH DUY\\Desktop\\KQHT\\KQHT\\Views\\frmDangNhap.cs",
+              "RelativeDocumentMoniker": "KQHT\\Views\\frmDangNhap.cs",
+              "ToolTip": "C:\\Users\\KHANH DUY\\Desktop\\KQHT\\KQHT\\Views\\frmDangNhap.cs",
+              "RelativeToolTip": "KQHT\\Views\\frmDangNhap.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAmwEsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T14:53:36.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmMonHoc.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\KHANH DUY\\Desktop\\KQHT\\KQHT\\Views\\frmMonHoc.cs",
+              "RelativeDocumentMoniker": "KQHT\\Views\\frmMonHoc.cs",
+              "ToolTip": "D:\\dotnot\\KQHT\\KQHT\\Views\\frmMonHoc.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T14:52:03.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmSinhVien.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\KHANH DUY\\Desktop\\KQHT\\KQHT\\Views\\frmSinhVien.cs",
+              "RelativeDocumentMoniker": "KQHT\\Views\\frmSinhVien.cs",
+              "ToolTip": "D:\\dotnot\\KQHT\\KQHT\\Views\\frmSinhVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T14:52:02.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TrangChu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\KHANH DUY\\Desktop\\KQHT\\KQHT\\Views\\TrangChu.cs",
+              "RelativeDocumentMoniker": "KQHT\\Views\\TrangChu.cs",
+              "ToolTip": "D:\\dotnot\\KQHT\\KQHT\\Views\\TrangChu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T14:52:00.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmDangKy.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\KHANH DUY\\Desktop\\KQHT\\KQHT\\Views\\frmDangKy.cs",
+              "RelativeDocumentMoniker": "KQHT\\Views\\frmDangKy.cs",
+              "ToolTip": "D:\\dotnot\\KQHT\\KQHT\\Views\\frmDangKy.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T13:36:42.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmDangNhap.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\KHANH DUY\\Desktop\\KQHT\\KQHT\\Views\\frmDangNhap.cs",
+              "RelativeDocumentMoniker": "KQHT\\Views\\frmDangNhap.cs",
+              "ToolTip": "C:\\Users\\KHANH DUY\\Desktop\\KQHT\\KQHT\\Views\\frmDangNhap.cs [Design]",
+              "RelativeToolTip": "KQHT\\Views\\frmDangNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T14:51:50.538Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
